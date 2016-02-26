@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E721BAC11C7AD657004A004B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E721BAA71C7AD657004A004B /* Info.plist */; };
+		E721BAC21C7AD657004A004B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAA91C7AD657004A004B /* MASCompositeConstraint.m */; };
+		E721BAC31C7AD657004A004B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAAC1C7AD657004A004B /* MASConstraint.m */; };
+		E721BAC41C7AD657004A004B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAAE1C7AD657004A004B /* MASConstraintMaker.m */; };
+		E721BAC51C7AD657004A004B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAB01C7AD657004A004B /* MASLayoutConstraint.m */; };
+		E721BAC61C7AD657004A004B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAB41C7AD657004A004B /* MASViewAttribute.m */; };
+		E721BAC71C7AD657004A004B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAB61C7AD657004A004B /* MASViewConstraint.m */; };
+		E721BAC81C7AD657004A004B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAB81C7AD657004A004B /* NSArray+MASAdditions.m */; };
+		E721BAC91C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BABB1C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E721BACA1C7AD657004A004B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BABD1C7AD657004A004B /* View+MASAdditions.m */; };
+		E721BACB1C7AD657004A004B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAC01C7AD657004A004B /* ViewController+MASAdditions.m */; };
+		E721BAF21C7ADA84004A004B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAD11C7ADA84004A004B /* IQNSArray+Sort.m */; };
+		E721BAF31C7ADA84004A004B /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAD31C7ADA84004A004B /* IQUIScrollView+Additions.m */; };
+		E721BAF41C7ADA84004A004B /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAD51C7ADA84004A004B /* IQUITextFieldView+Additions.m */; };
+		E721BAF51C7ADA84004A004B /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAD71C7ADA84004A004B /* IQUIView+Hierarchy.m */; };
+		E721BAF61C7ADA84004A004B /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAD91C7ADA84004A004B /* IQUIViewController+Additions.m */; };
+		E721BAF71C7ADA84004A004B /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BADB1C7ADA84004A004B /* IQUIWindow+Hierarchy.m */; };
+		E721BAF81C7ADA84004A004B /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAE01C7ADA84004A004B /* IQKeyboardManager.m */; };
+		E721BAF91C7ADA84004A004B /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAE21C7ADA84004A004B /* IQKeyboardReturnKeyHandler.m */; };
+		E721BAFA1C7ADA84004A004B /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAE51C7ADA84004A004B /* IQTextView.m */; };
+		E721BAFB1C7ADA84004A004B /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAE81C7ADA84004A004B /* IQBarButtonItem.m */; };
+		E721BAFC1C7ADA84004A004B /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAEA1C7ADA84004A004B /* IQTitleBarButtonItem.m */; };
+		E721BAFD1C7ADA84004A004B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAEC1C7ADA84004A004B /* IQToolbar.m */; };
+		E721BAFE1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E721BAEE1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.m */; };
+		E721BAFF1C7ADA84004A004B /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E721BAF11C7ADA84004A004B /* IQKeyboardManager.bundle */; };
+		E7E70B821C76EFF800C23280 /* UITableView+CHECExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E70B811C76EFF800C23280 /* UITableView+CHECExtension.m */; };
+		E7E70B851C76F02B00C23280 /* UITableViewCell+CHECExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E70B841C76F02B00C23280 /* UITableViewCell+CHECExtension.m */; };
+		E7E70B881C76F05500C23280 /* CHECTableDataSourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E70B871C76F05500C23280 /* CHECTableDataSourceDelegate.m */; };
+		E7E7F0411C75A3D300852522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F0401C75A3D300852522 /* main.m */; };
+		E7E7F0441C75A3D400852522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F0431C75A3D400852522 /* AppDelegate.m */; };
+		E7E7F04C1C75A3D400852522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7F04B1C75A3D400852522 /* Assets.xcassets */; };
+		E7E7F04F1C75A3D400852522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E7F04D1C75A3D400852522 /* LaunchScreen.storyboard */; };
+		E7E7F05D1C75A7EF00852522 /* CHECShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F05C1C75A7EF00852522 /* CHECShoppingCartVC.m */; };
+		E7E7F0601C75ACF700852522 /* CHECBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F05F1C75ACF700852522 /* CHECBaseViewModel.m */; };
+		E7E7F0631C75B83C00852522 /* CHECShoppingCartVM.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F0621C75B83C00852522 /* CHECShoppingCartVM.m */; };
+		E7E7F0661C75C06000852522 /* CHECShoppingCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F0651C75C06000852522 /* CHECShoppingCartModel.m */; };
+		E7E7F06A1C75C16200852522 /* CHECBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F0691C75C16200852522 /* CHECBaseTableCell.m */; };
+		E7E7F06D1C75C83A00852522 /* CHECGoodsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F06C1C75C83A00852522 /* CHECGoodsTableCell.m */; };
+		E7E7F0701C75C86000852522 /* CHECSuitTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F06F1C75C86000852522 /* CHECSuitTableCell.m */; };
+		E7EF3B981C7C2E4F00B2A89C /* CHECStoreHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF3B971C7C2E4F00B2A89C /* CHECStoreHeaderView.m */; };
+		E7EF3B9B1C7C2E7C00B2A89C /* CHECShoppingCartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF3B9A1C7C2E7C00B2A89C /* CHECShoppingCartFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E721BAA71C7AD657004A004B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E721BAA81C7AD657004A004B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E721BAA91C7AD657004A004B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E721BAAA1C7AD657004A004B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E721BAAB1C7AD657004A004B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E721BAAC1C7AD657004A004B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E721BAAD1C7AD657004A004B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E721BAAE1C7AD657004A004B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E721BAAF1C7AD657004A004B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E721BAB01C7AD657004A004B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E721BAB11C7AD657004A004B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E721BAB21C7AD657004A004B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E721BAB31C7AD657004A004B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E721BAB41C7AD657004A004B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E721BAB51C7AD657004A004B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E721BAB61C7AD657004A004B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E721BAB71C7AD657004A004B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E721BAB81C7AD657004A004B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E721BAB91C7AD657004A004B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E721BABA1C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E721BABB1C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E721BABC1C7AD657004A004B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E721BABD1C7AD657004A004B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E721BABE1C7AD657004A004B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E721BABF1C7AD657004A004B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E721BAC01C7AD657004A004B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E721BAD01C7ADA84004A004B /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		E721BAD11C7ADA84004A004B /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		E721BAD21C7ADA84004A004B /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		E721BAD31C7ADA84004A004B /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		E721BAD41C7ADA84004A004B /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		E721BAD51C7ADA84004A004B /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		E721BAD61C7ADA84004A004B /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		E721BAD71C7ADA84004A004B /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		E721BAD81C7ADA84004A004B /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		E721BAD91C7ADA84004A004B /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		E721BADA1C7ADA84004A004B /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		E721BADB1C7ADA84004A004B /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		E721BADD1C7ADA84004A004B /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		E721BADE1C7ADA84004A004B /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		E721BADF1C7ADA84004A004B /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		E721BAE01C7ADA84004A004B /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		E721BAE11C7ADA84004A004B /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		E721BAE21C7ADA84004A004B /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		E721BAE41C7ADA84004A004B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		E721BAE51C7ADA84004A004B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		E721BAE71C7ADA84004A004B /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		E721BAE81C7ADA84004A004B /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		E721BAE91C7ADA84004A004B /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		E721BAEA1C7ADA84004A004B /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		E721BAEB1C7ADA84004A004B /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		E721BAEC1C7ADA84004A004B /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		E721BAED1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		E721BAEE1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		E721BAEF1C7ADA84004A004B /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		E721BAF11C7ADA84004A004B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E721BB021C7AE014004A004B /* CHECMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECMacro.h; sourceTree = "<group>"; };
+		E721BB031C7AE03C004A004B /* CHECShoppingCart-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHECShoppingCart-Prefix.pch"; sourceTree = "<group>"; };
+		E7D9B8511C7D5B2B00689203 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E7E70B801C76EFF800C23280 /* UITableView+CHECExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CHECExtension.h"; sourceTree = "<group>"; };
+		E7E70B811C76EFF800C23280 /* UITableView+CHECExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CHECExtension.m"; sourceTree = "<group>"; };
+		E7E70B831C76F02B00C23280 /* UITableViewCell+CHECExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CHECExtension.h"; sourceTree = "<group>"; };
+		E7E70B841C76F02B00C23280 /* UITableViewCell+CHECExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CHECExtension.m"; sourceTree = "<group>"; };
+		E7E70B861C76F05500C23280 /* CHECTableDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECTableDataSourceDelegate.h; sourceTree = "<group>"; };
+		E7E70B871C76F05500C23280 /* CHECTableDataSourceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECTableDataSourceDelegate.m; sourceTree = "<group>"; };
+		E7E7F03C1C75A3D300852522 /* CHECShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHECShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E7F0401C75A3D300852522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7E7F0421C75A3D300852522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7E7F0431C75A3D400852522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7E7F04B1C75A3D400852522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E7F04E1C75A3D400852522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E7F0501C75A3D400852522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E7F05B1C75A7EF00852522 /* CHECShoppingCartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECShoppingCartVC.h; sourceTree = "<group>"; };
+		E7E7F05C1C75A7EF00852522 /* CHECShoppingCartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECShoppingCartVC.m; sourceTree = "<group>"; };
+		E7E7F05E1C75ACF700852522 /* CHECBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECBaseViewModel.h; sourceTree = "<group>"; };
+		E7E7F05F1C75ACF700852522 /* CHECBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECBaseViewModel.m; sourceTree = "<group>"; };
+		E7E7F0611C75B83C00852522 /* CHECShoppingCartVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECShoppingCartVM.h; sourceTree = "<group>"; };
+		E7E7F0621C75B83C00852522 /* CHECShoppingCartVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECShoppingCartVM.m; sourceTree = "<group>"; };
+		E7E7F0641C75C06000852522 /* CHECShoppingCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECShoppingCartModel.h; sourceTree = "<group>"; };
+		E7E7F0651C75C06000852522 /* CHECShoppingCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECShoppingCartModel.m; sourceTree = "<group>"; };
+		E7E7F0681C75C16200852522 /* CHECBaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECBaseTableCell.h; sourceTree = "<group>"; };
+		E7E7F0691C75C16200852522 /* CHECBaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECBaseTableCell.m; sourceTree = "<group>"; };
+		E7E7F06B1C75C83A00852522 /* CHECGoodsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECGoodsTableCell.h; sourceTree = "<group>"; };
+		E7E7F06C1C75C83A00852522 /* CHECGoodsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECGoodsTableCell.m; sourceTree = "<group>"; };
+		E7E7F06E1C75C86000852522 /* CHECSuitTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECSuitTableCell.h; sourceTree = "<group>"; };
+		E7E7F06F1C75C86000852522 /* CHECSuitTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECSuitTableCell.m; sourceTree = "<group>"; };
+		E7EF3B961C7C2E4F00B2A89C /* CHECStoreHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECStoreHeaderView.h; sourceTree = "<group>"; };
+		E7EF3B971C7C2E4F00B2A89C /* CHECStoreHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECStoreHeaderView.m; sourceTree = "<group>"; };
+		E7EF3B991C7C2E7C00B2A89C /* CHECShoppingCartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHECShoppingCartFooterView.h; sourceTree = "<group>"; };
+		E7EF3B9A1C7C2E7C00B2A89C /* CHECShoppingCartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHECShoppingCartFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E7F0391C75A3D300852522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E721BAA61C7AD657004A004B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E721BAA71C7AD657004A004B /* Info.plist */,
+				E721BAA81C7AD657004A004B /* MASCompositeConstraint.h */,
+				E721BAA91C7AD657004A004B /* MASCompositeConstraint.m */,
+				E721BAAA1C7AD657004A004B /* MASConstraint+Private.h */,
+				E721BAAB1C7AD657004A004B /* MASConstraint.h */,
+				E721BAAC1C7AD657004A004B /* MASConstraint.m */,
+				E721BAAD1C7AD657004A004B /* MASConstraintMaker.h */,
+				E721BAAE1C7AD657004A004B /* MASConstraintMaker.m */,
+				E721BAAF1C7AD657004A004B /* MASLayoutConstraint.h */,
+				E721BAB01C7AD657004A004B /* MASLayoutConstraint.m */,
+				E721BAB11C7AD657004A004B /* Masonry.h */,
+				E721BAB21C7AD657004A004B /* MASUtilities.h */,
+				E721BAB31C7AD657004A004B /* MASViewAttribute.h */,
+				E721BAB41C7AD657004A004B /* MASViewAttribute.m */,
+				E721BAB51C7AD657004A004B /* MASViewConstraint.h */,
+				E721BAB61C7AD657004A004B /* MASViewConstraint.m */,
+				E721BAB71C7AD657004A004B /* NSArray+MASAdditions.h */,
+				E721BAB81C7AD657004A004B /* NSArray+MASAdditions.m */,
+				E721BAB91C7AD657004A004B /* NSArray+MASShorthandAdditions.h */,
+				E721BABA1C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E721BABB1C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E721BABC1C7AD657004A004B /* View+MASAdditions.h */,
+				E721BABD1C7AD657004A004B /* View+MASAdditions.m */,
+				E721BABE1C7AD657004A004B /* View+MASShorthandAdditions.h */,
+				E721BABF1C7AD657004A004B /* ViewController+MASAdditions.h */,
+				E721BAC01C7AD657004A004B /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E721BACE1C7ADA84004A004B /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				E721BACF1C7ADA84004A004B /* Categories */,
+				E721BADC1C7ADA84004A004B /* Constants */,
+				E721BADF1C7ADA84004A004B /* IQKeyboardManager.h */,
+				E721BAE01C7ADA84004A004B /* IQKeyboardManager.m */,
+				E721BAE11C7ADA84004A004B /* IQKeyboardReturnKeyHandler.h */,
+				E721BAE21C7ADA84004A004B /* IQKeyboardReturnKeyHandler.m */,
+				E721BAE31C7ADA84004A004B /* IQTextView */,
+				E721BAE61C7ADA84004A004B /* IQToolbar */,
+				E721BAEF1C7ADA84004A004B /* KeyboardManager.h */,
+				E721BAF01C7ADA84004A004B /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		E721BACF1C7ADA84004A004B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E721BAD01C7ADA84004A004B /* IQNSArray+Sort.h */,
+				E721BAD11C7ADA84004A004B /* IQNSArray+Sort.m */,
+				E721BAD21C7ADA84004A004B /* IQUIScrollView+Additions.h */,
+				E721BAD31C7ADA84004A004B /* IQUIScrollView+Additions.m */,
+				E721BAD41C7ADA84004A004B /* IQUITextFieldView+Additions.h */,
+				E721BAD51C7ADA84004A004B /* IQUITextFieldView+Additions.m */,
+				E721BAD61C7ADA84004A004B /* IQUIView+Hierarchy.h */,
+				E721BAD71C7ADA84004A004B /* IQUIView+Hierarchy.m */,
+				E721BAD81C7ADA84004A004B /* IQUIViewController+Additions.h */,
+				E721BAD91C7ADA84004A004B /* IQUIViewController+Additions.m */,
+				E721BADA1C7ADA84004A004B /* IQUIWindow+Hierarchy.h */,
+				E721BADB1C7ADA84004A004B /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E721BADC1C7ADA84004A004B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E721BADD1C7ADA84004A004B /* IQKeyboardManagerConstants.h */,
+				E721BADE1C7ADA84004A004B /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E721BAE31C7ADA84004A004B /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E721BAE41C7ADA84004A004B /* IQTextView.h */,
+				E721BAE51C7ADA84004A004B /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E721BAE61C7ADA84004A004B /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E721BAE71C7ADA84004A004B /* IQBarButtonItem.h */,
+				E721BAE81C7ADA84004A004B /* IQBarButtonItem.m */,
+				E721BAE91C7ADA84004A004B /* IQTitleBarButtonItem.h */,
+				E721BAEA1C7ADA84004A004B /* IQTitleBarButtonItem.m */,
+				E721BAEB1C7ADA84004A004B /* IQToolbar.h */,
+				E721BAEC1C7ADA84004A004B /* IQToolbar.m */,
+				E721BAED1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.h */,
+				E721BAEE1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E721BAF01C7ADA84004A004B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E721BAF11C7ADA84004A004B /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E721BB001C7ADFB8004A004B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E721BB021C7AE014004A004B /* CHECMacro.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7E70B7D1C76EE6200C23280 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E7E70B801C76EFF800C23280 /* UITableView+CHECExtension.h */,
+				E7E70B811C76EFF800C23280 /* UITableView+CHECExtension.m */,
+				E7E70B831C76F02B00C23280 /* UITableViewCell+CHECExtension.h */,
+				E7E70B841C76F02B00C23280 /* UITableViewCell+CHECExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E7E70B7E1C76EE6200C23280 /* TableDataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E7E70B861C76F05500C23280 /* CHECTableDataSourceDelegate.h */,
+				E7E70B871C76F05500C23280 /* CHECTableDataSourceDelegate.m */,
+			);
+			path = TableDataSourceDelegate;
+			sourceTree = "<group>";
+		};
+		E7E70B891C7704D200C23280 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				E721BACE1C7ADA84004A004B /* IQKeyBoardManager */,
+				E721BAA61C7AD657004A004B /* Masonry */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		E7E7F0331C75A3D300852522 = {
+			isa = PBXGroup;
+			children = (
+				E7E7F03E1C75A3D300852522 /* CHECShoppingCart */,
+				E7E7F03D1C75A3D300852522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E7F03D1C75A3D300852522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F03C1C75A3D300852522 /* CHECShoppingCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E7F03E1C75A3D300852522 /* CHECShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F0561C75A7A300852522 /* ShoppingCart */,
+				E7E7F0421C75A3D300852522 /* AppDelegate.h */,
+				E7E7F0431C75A3D400852522 /* AppDelegate.m */,
+				E7E7F04B1C75A3D400852522 /* Assets.xcassets */,
+				E7E7F04D1C75A3D400852522 /* LaunchScreen.storyboard */,
+				E7E7F0501C75A3D400852522 /* Info.plist */,
+				E7E7F03F1C75A3D300852522 /* Supporting Files */,
+			);
+			path = CHECShoppingCart;
+			sourceTree = "<group>";
+		};
+		E7E7F03F1C75A3D300852522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F0401C75A3D300852522 /* main.m */,
+				E721BB031C7AE03C004A004B /* CHECShoppingCart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E7F0561C75A7A300852522 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				E721BB001C7ADFB8004A004B /* Utils */,
+				E7E70B891C7704D200C23280 /* Vender */,
+				E7E70B7D1C76EE6200C23280 /* Category */,
+				E7E70B7E1C76EE6200C23280 /* TableDataSourceDelegate */,
+				E7E7F0571C75A7A300852522 /* Controller */,
+				E7E7F0581C75A7A300852522 /* Model */,
+				E7E7F0591C75A7A300852522 /* View */,
+				E7E7F05A1C75A7A300852522 /* ViewModel */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		E7E7F0571C75A7A300852522 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F05B1C75A7EF00852522 /* CHECShoppingCartVC.h */,
+				E7E7F05C1C75A7EF00852522 /* CHECShoppingCartVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7E7F0581C75A7A300852522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F0641C75C06000852522 /* CHECShoppingCartModel.h */,
+				E7E7F0651C75C06000852522 /* CHECShoppingCartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7E7F0591C75A7A300852522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F0671C75C0CC00852522 /* Cell */,
+				E7EF3B961C7C2E4F00B2A89C /* CHECStoreHeaderView.h */,
+				E7EF3B971C7C2E4F00B2A89C /* CHECStoreHeaderView.m */,
+				E7EF3B991C7C2E7C00B2A89C /* CHECShoppingCartFooterView.h */,
+				E7EF3B9A1C7C2E7C00B2A89C /* CHECShoppingCartFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7E7F05A1C75A7A300852522 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F05E1C75ACF700852522 /* CHECBaseViewModel.h */,
+				E7E7F05F1C75ACF700852522 /* CHECBaseViewModel.m */,
+				E7E7F0611C75B83C00852522 /* CHECShoppingCartVM.h */,
+				E7E7F0621C75B83C00852522 /* CHECShoppingCartVM.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E7E7F0671C75C0CC00852522 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F0681C75C16200852522 /* CHECBaseTableCell.h */,
+				E7E7F0691C75C16200852522 /* CHECBaseTableCell.m */,
+				E7E7F06B1C75C83A00852522 /* CHECGoodsTableCell.h */,
+				E7E7F06C1C75C83A00852522 /* CHECGoodsTableCell.m */,
+				E7E7F06E1C75C86000852522 /* CHECSuitTableCell.h */,
+				E7E7F06F1C75C86000852522 /* CHECSuitTableCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E7F03B1C75A3D300852522 /* CHECShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E7F0531C75A3D400852522 /* Build configuration list for PBXNativeTarget "CHECShoppingCart" */;
+			buildPhases = (
+				E7E7F0381C75A3D300852522 /* Sources */,
+				E7E7F0391C75A3D300852522 /* Frameworks */,
+				E7E7F03A1C75A3D300852522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHECShoppingCart;
+			productName = CHECShoppingCart;
+			productReference = E7E7F03C1C75A3D300852522 /* CHECShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E7F0341C75A3D300852522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CHEC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CH;
+				TargetAttributes = {
+					E7E7F03B1C75A3D300852522 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E7E7F0371C75A3D300852522 /* Build configuration list for PBXProject "CHECShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7E7F0331C75A3D300852522;
+			productRefGroup = E7E7F03D1C75A3D300852522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7E7F03B1C75A3D300852522 /* CHECShoppingCart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E7F03A1C75A3D300852522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E7F04F1C75A3D400852522 /* LaunchScreen.storyboard in Resources */,
+				E7E7F04C1C75A3D400852522 /* Assets.xcassets in Resources */,
+				E721BAFF1C7ADA84004A004B /* IQKeyboardManager.bundle in Resources */,
+				E721BAC11C7AD657004A004B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E7F0381C75A3D300852522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E7F06A1C75C16200852522 /* CHECBaseTableCell.m in Sources */,
+				E721BAF61C7ADA84004A004B /* IQUIViewController+Additions.m in Sources */,
+				E7EF3B9B1C7C2E7C00B2A89C /* CHECShoppingCartFooterView.m in Sources */,
+				E721BAF41C7ADA84004A004B /* IQUITextFieldView+Additions.m in Sources */,
+				E721BAC71C7AD657004A004B /* MASViewConstraint.m in Sources */,
+				E7E70B881C76F05500C23280 /* CHECTableDataSourceDelegate.m in Sources */,
+				E721BAF51C7ADA84004A004B /* IQUIView+Hierarchy.m in Sources */,
+				E721BAC31C7AD657004A004B /* MASConstraint.m in Sources */,
+				E721BAF91C7ADA84004A004B /* IQKeyboardReturnKeyHandler.m in Sources */,
+				E7E7F0601C75ACF700852522 /* CHECBaseViewModel.m in Sources */,
+				E7E7F0441C75A3D400852522 /* AppDelegate.m in Sources */,
+				E7E7F0661C75C06000852522 /* CHECShoppingCartModel.m in Sources */,
+				E7E70B821C76EFF800C23280 /* UITableView+CHECExtension.m in Sources */,
+				E721BAF71C7ADA84004A004B /* IQUIWindow+Hierarchy.m in Sources */,
+				E721BAFD1C7ADA84004A004B /* IQToolbar.m in Sources */,
+				E721BAFA1C7ADA84004A004B /* IQTextView.m in Sources */,
+				E721BACB1C7AD657004A004B /* ViewController+MASAdditions.m in Sources */,
+				E721BAF31C7ADA84004A004B /* IQUIScrollView+Additions.m in Sources */,
+				E721BACA1C7AD657004A004B /* View+MASAdditions.m in Sources */,
+				E721BAF81C7ADA84004A004B /* IQKeyboardManager.m in Sources */,
+				E7E7F05D1C75A7EF00852522 /* CHECShoppingCartVC.m in Sources */,
+				E721BAC61C7AD657004A004B /* MASViewAttribute.m in Sources */,
+				E7E7F0411C75A3D300852522 /* main.m in Sources */,
+				E7E7F06D1C75C83A00852522 /* CHECGoodsTableCell.m in Sources */,
+				E721BAF21C7ADA84004A004B /* IQNSArray+Sort.m in Sources */,
+				E721BAC21C7AD657004A004B /* MASCompositeConstraint.m in Sources */,
+				E721BAC51C7AD657004A004B /* MASLayoutConstraint.m in Sources */,
+				E721BAFB1C7ADA84004A004B /* IQBarButtonItem.m in Sources */,
+				E7E70B851C76F02B00C23280 /* UITableViewCell+CHECExtension.m in Sources */,
+				E721BAC41C7AD657004A004B /* MASConstraintMaker.m in Sources */,
+				E721BAC81C7AD657004A004B /* NSArray+MASAdditions.m in Sources */,
+				E7E7F0701C75C86000852522 /* CHECSuitTableCell.m in Sources */,
+				E721BAFC1C7ADA84004A004B /* IQTitleBarButtonItem.m in Sources */,
+				E7E7F0631C75B83C00852522 /* CHECShoppingCartVM.m in Sources */,
+				E7EF3B981C7C2E4F00B2A89C /* CHECStoreHeaderView.m in Sources */,
+				E721BAFE1C7ADA84004A004B /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				E721BAC91C7AD657004A004B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7E7F04D1C75A3D400852522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E7F04E1C75A3D400852522 /* Base */,
+				E7D9B8511C7D5B2B00689203 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7E7F0511C75A3D400852522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7E7F0521C75A3D400852522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E7F0541C75A3D400852522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "CHECShoppingCart/CHECShoppingCart-Prefix.pch";
+				INFOPLIST_FILE = CHECShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsh.CHECShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7E7F0551C75A3D400852522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "CHECShoppingCart/CHECShoppingCart-Prefix.pch";
+				INFOPLIST_FILE = CHECShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gsh.CHECShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E7F0371C75A3D300852522 /* Build configuration list for PBXProject "CHECShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E7F0511C75A3D400852522 /* Debug */,
+				E7E7F0521C75A3D400852522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E7F0531C75A3D400852522 /* Build configuration list for PBXNativeTarget "CHECShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E7F0541C75A3D400852522 /* Debug */,
+				E7E7F0551C75A3D400852522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E7F0341C75A3D300852522 /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+//  CHECShoppingCart-Prefix.pch
+//  CHECShoppingCart
+//
+//  Created by CH on 16/2/22.
+//  Copyright © 2016年 CH. All rights reserved.
+//
+
+#ifndef CHECShoppingCart_Prefix_pch
+#define CHECShoppingCart_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CHECMacro.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+#import "Masonry.h"
+
+#endif /* CHECShoppingCart_Prefix_pch */
